@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+<title>杜甫的诗——春夜喜雨</title>
+</head>
+<body background=3.jpg>
+<embed src="https://webfs.yun.kugou.com/202003132227/0e80223a9ea176e7aa6b8010551bff5f/G203/M09/0A/11/q5QEAF5U8ieABDBNAEcDw-MJrkI483.mp3" 
 
-You can use the [editor on GitHub](https://github.com/RITENU/myhtml/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RITENU/myhtml/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ width="0" height="0" loop=“-1” autostart="True"></embed>
+<p align="center">
+<b>春&nbsp;夜&nbsp;喜&nbsp;雨</b ><br/>
+(唐)杜甫</p>
+<hr width="80%" color="red"/>
+<p align="center">
+好雨知时节，当春乃发生。<br/>
+随风潜入夜，润物细无声。<br/>
+野径云俱黑，江船火独明。<br/>
+晓看红湿处，花重锦官城。</p>
+<p>【译文】春雨知道适应季节，当万物萌发生长时，它伴随着春风，在夜晚
+偷偷地及时降临，滋润万物又细微无声。郊野的小路和空中的云朵躲在黑暗之中，
+江上渔船的灯火却格外明亮。待到天明，看那细雨湿润的红花，映着曙光分外鲜艳，
+饱含雨露的花朵开满了锦官城。</p>
+</body>
+</html>
