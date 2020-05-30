@@ -1,10 +1,82 @@
 <html>
 <head>
-<title>我的HTML实验</title>
+<title>我的网页制作实验</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<link href="css/baiye.css" rel="stylesheet" type="text/css">
+</head>
 <body>
-<h1 align="center">道德经</h1>
-<p align="center">道可道，非常道；名可名，非常名。</p>
-<p align="center">无名，天地之始，有名，万物之母。</p>
-<p align="center">故常无欲，以观其妙，常有欲，以观其徼。</p>
-<p align="center">此两者，同出而异名，同谓之玄，玄之又玄，众妙之门。</p>
+<bgsound src="audio/shaonian.mp3" loop="-1"/> 
+<div class="container">
+<div class="banner">
+</div>
+<div class="nav">
+
+<ul>
+<li> <a href="index.htm">本站首页</a></li>
+<li><a href="html/三台三.html" target="_blank">三台山公园</a></li>
+<li><a href="#">项王故里</a></li>
+<li><a href="#">骆马湖</a></li>
+<li><a href="#">龙王庙行宫</a></li>
+</ul>
+</div>
+<div class="mid">
+<div class="left"></div>
+<div class="right"><p>&nbsp;&nbsp;&nbsp;&nbsp;宿迁，简称“宿”，别称水城，古称下相、宿豫、钟吾，江苏省地级市，
+是沿海地区向中西部辐射的重要门户城市，徐州都市圈、江淮生态经济区核心城市，
+一带一路节点城市、淮海经济区中心城市之一、中国重要的电子商务中心，是沿东陇海线经济带、
+沿海经济带和沿长江经济带的重要战略支点。宿迁地处长三角北翼、江苏北部，南与淮安毗连，
+东与连云港接壤，北与徐州相连，西与宿州交界。坐拥骆马湖，洪泽湖两大淡水湖，享有“华东净土”、“
+江苏氧吧”的美誉，截至2018年，宿迁下辖2区、3县，总面积8555平方公里。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;
+宿迁是西楚霸王项羽的故乡，有着5000多年的文明史和2700多年的建城史，曾是泗水国、钟吾国、
+宿国都城，历史悠久，人文荟萃，素有“华夏文明之脉、江苏文明之根、淮河文明之源、楚汉文化之魂”之称。
+境内下草湾文化遗址，是世界生物进化中心之一，也是人类起源中心之一，被誉为地球上的“生命圣地”。
+宿迁自古便有“北望齐鲁、南接江淮，居两水（即黄河、长江）中道、扼二京（即北京、南京）咽喉”之称。
+乾隆六下江南五次驻跸于此，赞叹宿迁为“第一江山春好处”。中国大运河宿迁段及乾隆行宫遗产点入选世界遗产名录</p>
+</div>
+</div>
+<div class="kuangjia">
+<ul class="m">
+     <li class="tu">
+       <img src="images/1.jpg" alt="">
+       <div class="flag">三台山公园</div>
+     </li>
+     <li class="tu">
+       <img src="images/2.jpg" alt="">
+       <div class="flag">项王故里</div>
+     </li>
+     <li class="tu">
+       <img src="images/3.jpg" alt="">
+       <div class="flag">骆马湖</div>
+     </li>
+     <li class="tu">
+       <img src="images/4.jpg" alt="">
+       <div class="flag">龙王庙行宫</div>
+     </li>
+     <li class="tu">
+       <img src="images/5.jpg" alt="">
+       <div class="flag">我的宿院</div>
+     </li>
+   </ul>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/velocity.js"></script>
+<script src="js/shutter.js"></script>
+<script>
+$(function () {
+  $('.shutter').shutter({
+	shutterW: 800, // 容器宽度
+	shutterH: 600, // 容器高度
+	isAutoPlay: true, // 是否自动播放
+	playInterval: 3000, // 自动播放时间
+	curDisplay: 3, // 当前显示页
+	fullPage: false // 是否全屏展示
+  });
+});
+</script>
+<div class="footer"><p class="footer2">@部分素材来自于网络，仅学习交流使用</p><p class="footer2">
+                      </p></div>
+</div>
 </body>
+</html>
